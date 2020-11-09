@@ -3,6 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background-color: black;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -35,20 +41,216 @@ nav{
     margin: 5px;
     transition: all 0.3s ease ;
 }
-.video{
-    object-fit: cover;
-    width: 100vw;
-    height: 100vh;
+video{
     position: fixed;
-}
+    width: 100%;
+} 
 .logo{
     height: 100vh;
     text-align: center;
     padding-top: 70px;
 }
+.banner img{
+    display: inline-block;
+    position: relative;
+}
+.row-1{
+   background-color: rgb(10, 10, 10, 0.5);
+   position: relative;
+   text-align: center;
+   padding-bottom: 50px;
+}
+.row-1 h1{
+   color: white;
+   font-family: 'Pattaya', sans-serif;
+   font-size: 100px;
+   padding: 50px 0;
+}
+.fb-feed{
+   padding-bottom: 50px;
+}
+.row-1 iframe{
+   border: solid 10px rgb(66 103 178);
+   border-radius: 20px;
+}
+.row-1 ul a{
+   list-style-type: none;
+   text-decoration: none;
+   background-color:rgb(66 103 178);
+   font-family: 'Pattaya', sans-serif;
+   color: white;
+   font-size: 40px;
+   padding: 5px;
+   border-radius: 10px;
+   border: solid 10px rgb(66 103 178);
+}
+.row-1 ul a:hover{
+   transition: ease-in 0.3s;
+   border-color: white;
+   opacity: 1;
+}
+.row-2{
+    position: relative;
+    background-color: rgb(10, 10, 10, 0.9);
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.row-2 h1{
+    font-family: 'Pattaya', sans-serif;
+    padding: 50px 0;
+    font-size: 100px;
+}
+.row-2 p{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+.row-3{
+
+    position: relative;
+    text-align: center;
+}
+.row-3 h1{
+    padding: 50px 0;
+    color: white;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 100px;
+}
+.row-3 img, .row-3 iframe{
+    border: solid 10px rgb(30 215 96);
+    border-radius: 10px;
+}
+.row-3 ul{
+    padding: 50px;
+}
+.row-3 ul a{
+    list-style-type: none;
+    text-decoration: none;
+    background-color:rgb(30 215 96);
+    font-family: 'Pattaya', sans-serif;
+    color: rgb(225, 236, 229);
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 10px rgb(30 215 96);
+}
+.row-3 ul a:hover{
+    transition: ease-in 0.3s;
+    border-color: white;
+    opacity: 1;
+}
+.row-4{
+    color: white;
+    position: relative;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+.row-4 h1{
+    font-family: 'Pattaya', sans-serif;
+    padding: 50px 0;
+    font-size: 100px;
+}
+.row-4 iframe{
+    border: solid 10px rgb(255 0 0);
+    border-radius: 50px;
+}
+.row-4 ul{
+    padding: 50px;
+    list-style-type: none;
+}
+.row-4 ul a{
+    list-style-type: none;
+    text-decoration: none;
+    background-color:rgb(255,0,0);
+    font-family: 'Pattaya', sans-serif;
+    color: white;
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 10px rgb(255,0,0);
+}
+.row-4 ul a:hover{
+    transition: ease-in 0.3s;
+    border-color: white;
+    opacity: 1;
+}  
+.row-5{
+    position: relative;
+    text-align: center;
+    background-color: rgb(10, 10, 10, 0.5);
+    color: white;
+    padding-bottom: 100px;
+}
+.row-5 h1{
+    font-family: 'Pattaya', sans-serif;
+    opacity: 1;
+    padding: 50px 0;
+    font-size: 100px;
+}
+.row-5 h5{
+    opacity: 1;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 60px;
+}
+.row-5 sup{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+}
+.row-6{
+    background-color: rgb(10, 10, 10, 0.9);
+    position: relative;
+    text-align: center;
+    padding-bottom:100px;
+}
+.row-6 h1{
+    font-family: 'Pattaya', sans-serif;
+    color: white;
+    padding: 50px 0;
+    font-size: 100px;
+}
+.row-6 p{
+    opacity: 1;
+    color: white;
+    padding: 0 300px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 50px;
+}
+footer{
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: rgb(10, 10, 10, 0.9);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+footer h1{
+    font-family: 'Pattaya', sans-serif;
+    padding: 50px 0;
+    font-size: 100px;
+}
+.email{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none;
+    color: rgb(241, 237, 237);
+}
+.socials{
+    padding-top: 10px;
+}
+.facebook, .instagram{
+    background-color: white;
+    border-radius: 35px;
+    border: transparent;
+}
 
 @media screen and (max-width: 768px){
-    body{
+     body{
         overflow-x: hidden;
     }
     .nav-links{
