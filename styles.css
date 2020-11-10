@@ -29,6 +29,13 @@ nav{
 }
 .nav-links li{
     list-style: none
+    
+}
+nav .shop{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
 .burger{
     display: none;
@@ -251,8 +258,73 @@ footer h1{
 
 @media screen and (max-width: 768px){
      body{
+         width: auto;
         overflow-x: hidden;
     }
+   .row-1 h1{
+        text-align: center;
+        font-size: 50px;
+        padding-bottom: 40px;
+    }
+    .row-1 iframe{
+        width: 350px;
+        height: 400px;
+    }
+    .row-1 ul a{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .row-2, .row-2 h1{
+        font-size: 50px;
+        padding: 0;
+    }
+    .row-2 a{
+        font-size: 15px;
+        
+    }
+    .row-3, .row-3 h1{
+        font-size: 50px;
+        padding: 0;
+    }
+    .row-3 ul a{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .row-3 img{
+        width: 300px;
+        height: 300px;
+    }
+    .row-3 iframe{
+        width: 350px;
+        height: 400px;
+    }
+    .row-4 iframe{
+        width: 350px;
+        height: 400px;
+    }
+    .row-4 ul a{
+        font-size: 30px;
+
+    }
+    .row-5 h1{
+        font-size: 50px;
+        padding: 0;
+    }
+    .row-5 h5{
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .row-6 h1{
+        font-size: 50px;
+        padding: 0;
+    }
+    .row-6 p{
+        font-size: 30px;
+        padding: 0 0;
+    }
+    footer h1{
+        font-size: 50px;
+    }    
     .nav-links{
         position: absolute;
         right: 0px;
@@ -272,7 +344,12 @@ footer h1{
     .burger{
         display: block;
     }
+    video{
+        display: none;
+    }
     .logo img{
+        pointer-events: none;
+        opacity: 0.5;
         height: 300px;
         width: 400px;
         display: inline-flex;
