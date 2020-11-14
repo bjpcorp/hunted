@@ -270,8 +270,8 @@ footer h1{
         padding-bottom: 40px;
     }
     .row-1 iframe{
-        width: 350px;
-        height: 400px;
+        width: 700px;
+        height: 500px;
     }
     .row-1 ul a{
         font-size: 20px;
@@ -330,7 +330,6 @@ footer h1{
     }    
     .nav-links{
         position: absolute;
-        border-radius: 15px;
         right: 0px;
         height: 92vh;
         top: 8vh;
