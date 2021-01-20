@@ -85,7 +85,13 @@ video{
    font-size: 100px;
    padding: 50px 0;
 }
+.reviews img{
+    border-radius: 30px;
+    opacity: 0.9;
+    
+}
 .fb-feed{
+    padding-top: 50px;
    padding-bottom: 50px;
 }
 .row-1 iframe{
@@ -296,6 +302,9 @@ footer h1{
         font-size: 15px;
         
     }
+    .festival h1{
+        font-size: 40px;
+    }    
     .row-3, .row-3 h1{
         font-size: 50px;
         padding: 0;
