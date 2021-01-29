@@ -286,10 +286,9 @@ footer h1{
         font-size: 50px;
         padding-bottom: 40px;
     }
-    .reviews,img{
+    .reviews img{
         width: 900px;
-        height: 300px;
-    }
+        height: 350px;
     }
     .row-1 iframe{
         width: 700px;
@@ -309,7 +308,12 @@ footer h1{
     }
     .festival h1{
         font-size: 40px;
-    }    
+    }
+    .festival img{
+        width: 500px;
+        height: 500px;
+    }
+    } 
     .row-3, .row-3 h1{
         font-size: 50px;
         padding: 0;
