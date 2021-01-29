@@ -286,6 +286,11 @@ footer h1{
         font-size: 50px;
         padding-bottom: 40px;
     }
+    .reviews,img{
+        width: 900px;
+        height: 300px;
+    }
+    }
     .row-1 iframe{
         width: 700px;
         height: 500px;
