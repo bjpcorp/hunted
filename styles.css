@@ -86,9 +86,19 @@ video{
    padding: 50px 0;
 }
 .reviews img{
+    padding-bottom: 50px;
     border-radius: 30px;
+    opacity: 0.9;  
+}
+.reviews-2{
+    color: white;
+    padding: 0 300px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 50px;
+}
+#erb{
+    border-radius: 50px;
     opacity: 0.9;
-    
 }
 .fb-feed{
     padding-top: 50px;
@@ -138,7 +148,6 @@ video{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .row-3{
-
     position: relative;
     text-align: center;
 }
@@ -149,7 +158,7 @@ video{
     font-size: 100px;
 }
 .row-3 img, .row-3 iframe{
-    border: solid 10px rgb(30 215 96);
+    border: solid 10px rgb(52,44,24);
     border-radius: 10px;
 }
 .row-3 ul{
@@ -290,6 +299,10 @@ footer h1{
         width: 550px;
         height: 250px;
     }
+    .reviews-2{
+        font-size: 30px;
+        padding: 0 0;
+    }
     .row-1 iframe{
         width: 700px;
         height: 500px;
@@ -322,11 +335,11 @@ footer h1{
         padding: 10px;
     }
     .row-3 img{
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
     }
     .row-3 iframe{
-        width: 350px;
+        width: 400px;
         height: 400px;
     }
     .row-4 iframe{
