@@ -287,7 +287,7 @@ footer h1{
     border: transparent;
 }
 
-@media all and (max-width: 700px){
+@media all and (max-width: 850px){
      body{
         overflow-x: hidden;
     }
@@ -297,7 +297,7 @@ footer h1{
     }
     .reviews img{
         width: 550px;
-        height: 250px;
+        height: 330px;
     }
     .reviews-2{
         font-size: 30px;
@@ -335,12 +335,12 @@ footer h1{
         padding: 10px;
     }
     .row-3 img{
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
     }
     .row-3 iframe{
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
     }
     .row-4 iframe{
         width: 350px;
