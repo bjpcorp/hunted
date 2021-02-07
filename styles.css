@@ -296,8 +296,8 @@ footer h1{
         padding-bottom: 40px;
     }
     .reviews img{
-        width: 550px;
-        height: 330px;
+        width: auto;
+        height: auto;
     }
     .reviews-2{
         font-size: 30px;
