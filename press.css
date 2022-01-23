@@ -71,8 +71,8 @@ nav{
 }
 @media (min-width: 320px) {
   .carousel-container{
-      width:20rem;
-      height: 20rem;
+      width:19rem;
+      height: 19rem;
       margin: auto;
       border: 5px solid white;
       border-radius: 10px;
